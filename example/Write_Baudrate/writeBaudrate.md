@@ -11,6 +11,7 @@ byte writeBaudrate(byte ID,byte newBaudrate);
 
 ## Parameters ##
 byte ID; //byte ID is ULTRASONIC SENSOR unique ID.
+
 byte newBaudrate;//rero Ultrasonic Sensor new baudrate.
 
 ## Returns ##
