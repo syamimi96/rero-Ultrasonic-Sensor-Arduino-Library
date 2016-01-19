@@ -7,13 +7,14 @@ This function will read the identity of the Ultrasonic Sensor.
 reroSensor_US.h
 
 ## Prototype ##
-byte writeBaudrate(byte ID);
+byte writeBaudrate(byte ID,byte newBaudrate);
 
 ## Parameters ##
-byte ID; //byte ID is ULTRASONIC SENSOR unique ID
+byte ID; //byte ID is ULTRASONIC SENSOR unique ID.
+byte newBaudrate;//rero Ultrasonic Sensor new baudrate.
 
 ## Returns ##
- return packet from sensor
+ Return packet of baudrate register:
  
 if errStatus more than 0,write baudrate fail.
 
