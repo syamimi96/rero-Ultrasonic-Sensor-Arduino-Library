@@ -1,4 +1,4 @@
-#ReadBaudate() #
+#ReadBaudrate() #
 
 ## Description ##
 This function rero Ultrasonic Sensor's read baudrate.
