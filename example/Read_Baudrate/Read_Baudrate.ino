@@ -8,7 +8,7 @@ void setup() {
   delay(1000);
 }
 void loop() {
-  byte baudrate = US.readBaudrate(102);                          //define baudrate as a function to read the baudrate of the sensor.
+  byte baud = US.readBaudrate(102);                          //define baudrate as a function to read the baudrate of the sensor.
   Serial.print("Check Read Baudrate Error:");
   Serial.println(US.errStatus);                                  //the standart of the value is 0, if got error the value will be 255.
   if(US.errStatus>0){
@@ -17,7 +17,7 @@ void loop() {
   else
   {
   Serial.print("Baudrate:");
-  Serial.println(baudrate);
+  Serial.println(baud);
   }
   
   delay(1000);
