@@ -28,5 +28,5 @@ idWrite= US.ping(102); // read ID 102 control register id.
 
 ## See Also ##
 
-[errStatus](https://github.com/duckwalker/Cytron-Technology-Ultrasonic-Sensor/blob/wiki/example/Error%20Status.md)
+[errStatus](https://github.com/duckwalker/Cytron-Ultrasonic-Sensor-Arduino-Library/blob/wiki/example/Error%20Status.md)
 
