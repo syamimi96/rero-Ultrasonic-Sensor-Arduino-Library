@@ -1,7 +1,7 @@
 #ReadBaudate() #
 
 ## Description ##
-This function is reading baudrate's Ultrasonic Sensor 
+This function rero Ultrasonic Sensor's read baudrate
 
 ## Include ##
 reroSensor_US.h
@@ -31,9 +31,9 @@ Return BaudRate Value Data
 ## Example ##
 reroSensor_US US(2,3,8);
 
-byte baudrateRead;
+byte baud;
 
-baudrateRead= US.readBaudrate(102); // read ID 102 control registor Baudrate Value
+baudrateRead= US.readBaudrate(102); // call out the function of factory reset with sensor ID 102.
 
 ## See Also ##
 
