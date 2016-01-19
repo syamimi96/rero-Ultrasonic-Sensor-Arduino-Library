@@ -14,7 +14,7 @@ byte readBaudrate(byte ID);
 byte ID;            //byte ID is ULTRASONIC SENSOR unique ID
 
 ## Returns ##
-Return Baudrate Buffer Data
+Return Baudrate Buffer Data:
 
 |RegisterValue(Hex)|BaudRate(bps)|
 |:-----------------|:------------|
