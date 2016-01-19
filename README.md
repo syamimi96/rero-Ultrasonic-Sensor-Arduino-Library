@@ -1,14 +1,12 @@
 # Cytron-Ultrasonic-Sensor
 
 <strong>Cytron Ultrasonic Sensor's Arduino Library</strong><br/><br/>
-Controller: CT UNO (Arduino UNO compatible)<br/>
-IDE: Arduino IDE 1.6.5<br/>
-Compiler: Arduino IDE 1.6.5<br/><br/>
+Controller: Arduino
 Recommended product:<br/>
 <a href="http://www.cytron.com.my/p-ct-uno" target="_blank">CT UNO</a><br/>
 <a href="http://www.cytron.com.my/p-shield-g15" target="_blank">Cytron G15 Shield</a><br/>
 
-There have 9 example sketches:<br/>
+There have 9 Function:<br/>
 <a href="https://github.com/duckwalker/Cytron-Ultrasonic-Sensor-Arduino-Library/blob/wiki/example/Factory_Reset/factoryReset.md" target="_blank"><strong>FactoryReset</strong></a> - Reset the all the value to standard of Ultrasonic Sensor register.<br/>
 
 <a href="https://github.com/duckwalker/Cytron-Ultrasonic-Sensor-Arduino-Library/blob/wiki/example/Read_Baudrate/readBaudrate.md" target="_blank"><strong>ReadBaudrate</strong></a> - Read the communication data rate of the Ultrasonic Sensor.<br/>
