@@ -1,4 +1,4 @@
-# BaudRate() #
+#ReadBaudate() #
 
 ## Description ##
 This function is reading baudrate's Ultrasonic Sensor 
