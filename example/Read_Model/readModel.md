@@ -35,5 +35,5 @@ type[0]=(char)(model>>8);
 Serial.println(type);
   
 ## See Also ##
-[errStatus](https://github.com/duckwalker/Cytron-Technology-Ultrasonic-Sensor/blob/wiki/example/Error%20Status.md)
+[errStatus](https://github.com/duckwalker/Cytron-Ultrasonic-Sensor-Arduino-Library/blob/wiki/example/Error%20Status.md)
 
