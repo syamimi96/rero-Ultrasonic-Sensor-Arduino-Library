@@ -1,7 +1,7 @@
 #ReadBaudate() #
 
 ## Description ##
-This function rero Ultrasonic Sensor's read baudrate
+This function rero Ultrasonic Sensor's read baudrate.
 
 ## Include ##
 reroSensor_US.h
