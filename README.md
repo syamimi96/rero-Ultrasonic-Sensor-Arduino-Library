@@ -9,7 +9,7 @@ Recommended product:<br/>
 <a href="http://www.cytron.com.my/p-shield-g15" target="_blank">Cytron G15 Shield</a><br/>
 
 There have 9 example sketches:<br/>
-<strong>FactoryReset</strong> - Reset the cache memory of Ultrasonic Sensor.<br/>
+<a href="http://www.cytron.com.my/p-ct-uno" target="_blank"><strong>FactoryReset</strong></a> - Reset the cache memory of Ultrasonic Sensor.<br/>
 <strong>ReadBaudrate</strong> - Read the communication data rate of the Ultrasonic Sensor.<br/>
 <strong>ReadDistance</strong> - Read the distance measure that Ultrasonic received.<br/>
 <strong>ReadID</strong>       - Read the Identity/ping of the sensor.<br/>
