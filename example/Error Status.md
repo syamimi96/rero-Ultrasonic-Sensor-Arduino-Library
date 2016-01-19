@@ -23,13 +23,13 @@ if HM.errStatus equal to 0 ,it was print out your data
 |7    |Instruction,Checksum,Range Error|
 
 ##Example##
-if(US.errStatus>0)
-{
+if(US.errStatus>0)<br/>
+{<br/>
 Serial.print("Status Fail:");<br/>
 Serial.println(US.errStatus）；   //print out the value of error buff of return packet<br/>
 }<br/>
-else
-{
-Serial.print("Status Success:");
-Serial.print(US.errStatus);       //print out the value of error buff of return packet
-}
+else<br/>
+{<br/>
+Serial.print("Status Success:");<br/>
+Serial.print(US.errStatus);       //print out the value of error buff of return packet<br/>
+}<br/>
