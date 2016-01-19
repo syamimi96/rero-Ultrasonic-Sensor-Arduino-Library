@@ -13,7 +13,7 @@ byte pingUS(byte ID);
 byte ID; //byte ID is ULTRASONIC SENSOR unique ID
 
 ## Returns ##
- return packet from sensor
+ Return packet of the Ping Ultrasonic register:
  
 if errStatus =0, ping Ultrasonic will return distance in cm.
 
