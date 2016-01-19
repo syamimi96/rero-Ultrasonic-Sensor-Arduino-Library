@@ -33,7 +33,7 @@ reroSensor_US US(2,3,8);
 
 byte baud;
 
-baud= US.readBaudrate(102); // call out the function of factory reset with sensor ID 102.
+baud = US.readBaudrate(102); // // call out the function of Read Baudrate with ID = 102(rero Ultrasonic Sensor default ID).
 
 ## See Also ##
 
