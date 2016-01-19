@@ -16,7 +16,9 @@ byte ID; //byte ID is ULTRASONIC SENSOR unique ID
  return packet from sensor
  
 if errStatus =0, ping Ultrasonic will return distance in cm.
+
 if errStatus more than 0,Ping Ultrasonic will fail.
+
 if Ping Ultrasonic measure times out ,Serial monitor will print out 6553.
 
 ## Example ##
