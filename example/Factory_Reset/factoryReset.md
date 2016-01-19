@@ -1,4 +1,4 @@
-# FactoryReset() #
+#FactoryReset() #
 
 ## Description ##
 This function will resets the control registers's Ultrasonic Sensor values to factory default.
@@ -15,16 +15,16 @@ byte ID; //byte ID is ULTRASONIC SENSOR unique ID
 ## Returns ##
  return packet from ULTRASONIC sensor
  
-if return 0 ,serial monitor print out Factory Reset ERROR!
+if return 0 ,Factory Reset Fail.
 
-if return 1,serial monitor print out Factory Reset PASS!
+if return 1, Factory Reset Success.
 
 ## Example ##
 reroSensor_US US(2,3,8);
 
-byte stat;
+byte reset;
 
-stat= US.factoryReset(102); // read ID 102 control registor factory Reset
+reset= US.factoryReset(102); // call out the function of factory reset with ID 102.
 
 ## Find Out ##
 
