@@ -26,10 +26,10 @@ if HM.errStatus equal to 0 ,it was print out your data
 if(US.errStatus>0)<br/>
 {<br/>
 Serial.print("Status Fail:");<br/>
-Serial.println(US.errStatus）；   //print out the value of error buff of return packet<br/>
+Serial.println(US.errStatus);        //print out the value of error buff of return packet<br/>
 }<br/>
 else<br/>
 {<br/>
 Serial.print("Status Success:");<br/>
-Serial.print(US.errStatus);       //print out the value of error buff of return packet<br/>
+Serial.print(US.errStatus);         //print out the value of error buff of return packet<br/>
 }<br/>
