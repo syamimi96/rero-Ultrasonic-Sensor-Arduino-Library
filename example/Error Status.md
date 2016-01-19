@@ -6,9 +6,9 @@
 |     |     |     |     |     |Instruction     |Checksum     |Range  |
 
 
-if HM.errStatus higher than 0 ,it was print out  HM Reading Error
+if US.errStatus higher than 0 ,it was print out  US Reading Error
 
-if HM.errStatus equal to 0 ,it was print out your data
+if US.errStatus equal to 0 ,it was print out your data
 
 
 |Value| Error Status|
