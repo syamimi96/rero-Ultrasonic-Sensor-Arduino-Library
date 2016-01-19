@@ -25,7 +25,7 @@ if HM.errStatus equal to 0 ,it was print out your data
 ##Example##
 if(US.errStatus>0)
 {
-Serial.print("Status Fail:");
+Serial.print("Status Fail:");<b/>
 Serial.println(US.errStatus）；   //print out the value of error buff of return packet
 }
 else
