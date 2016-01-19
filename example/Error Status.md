@@ -6,10 +6,8 @@
 |     |     |     |     |     |Instruction     |Checksum     |Range  |
 
 
-if US.errStatus higher than 0 ,it was print out  US Reading Error
-
-if US.errStatus equal to 0 ,it was print out your data
-
+If US.errStatus more than 0,error buff will state error.
+If US.errStatus = 0,error buff will state success.
 
 |Value| Error Status|
 |:----|:------------|
