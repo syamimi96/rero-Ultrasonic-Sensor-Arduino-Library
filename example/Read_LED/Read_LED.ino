@@ -9,7 +9,7 @@ void setup() {
 }
 void loop() {
 
-  byte ledRead=US.readLED(102);                                   //define ledRead as a function to get the LED mode
+  byte led=US.readLED(102);                                   //define ledRead as a function to get the LED mode
   Serial.print("Check Read LED Error:");
   Serial.println(US.errStatus);                                  //the standart of the value is 0, if got error the value will be 255.
   if( US.errStatus>0){
@@ -18,7 +18,7 @@ void loop() {
   else
   {
     Serial.print("LED Status:");  
-    Serial.println(ledRead);                                    //0=led off, 1=led on ,2=led trigger
+    Serial.println(led);                                    //0=led off, 1=led on ,2=led trigger
   }
   delay(1000);
 }
