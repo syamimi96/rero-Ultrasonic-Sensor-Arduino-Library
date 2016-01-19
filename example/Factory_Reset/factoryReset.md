@@ -1,7 +1,7 @@
 #FactoryReset() #
 
 ## Description ##
-This function will resets the control registers's Ultrasonic Sensor values to factory default.
+This function will reset all the control registers's Ultrasonic Sensor values to default value.
 
 ## Include ##
 reroSensor_US.h
@@ -24,7 +24,7 @@ reroSensor_US US(2,3,8);
 
 byte reset;
 
-reset= US.factoryReset(102); // call out the function of factory reset with ID 102.
+reset= US.factoryReset(102); // call out the function of factory reset with ID = 102(rero Ultrasonic Sensor default ID).
 
 ## Find Out ##
 
