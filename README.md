@@ -1,4 +1,4 @@
-# Cytron-Technology-Ultrasonic-Sensor
+# Cytron-Ultrasonic-Sensor
 
 <strong>Cytron Ultrasonic Sensor's Arduino Library</strong><br/><br/>
 Controller: CT UNO (Arduino UNO compatible)<br/>
