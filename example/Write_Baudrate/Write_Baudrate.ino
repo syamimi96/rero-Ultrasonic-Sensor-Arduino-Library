@@ -8,7 +8,7 @@ void setup() {
   delay(1000);
 }
 void loop() {
- word baudrateWrite=US.writeBaudrate(102,103);
+ word newbaud=US.writeBaudrate(102,103);
  Serial.print("Check Write Baudrate:");
  Serial.println(US.errStatus);                                    //the standart of the value is 0, if got error the value will be 255.
  if(US.errStatus>0){
