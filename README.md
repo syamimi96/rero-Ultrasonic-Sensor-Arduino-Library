@@ -9,7 +9,7 @@ Recommended product:<br/>
 <a href="http://www.cytron.com.my/p-shield-g15" target="_blank">Cytron G15 Shield</a><br/>
 
 There have 9 example sketches:<br/>
-<a href="https://github.com/duckwalker/Cytron-Ultrasonic-Sensor-Arduino-Library/blob/wiki/example/Factory_Reset/factoryReset.md" target="_blank"><strong>FactoryReset</strong></a> - Reset the cache memory of Ultrasonic Sensor.<br/>
+<a href="https://github.com/duckwalker/Cytron-Ultrasonic-Sensor-Arduino-Library/blob/wiki/example/Factory_Reset/factoryReset.md" target="_blank"><strong>FactoryReset</strong></a> - Reset the all the value to standard of Ultrasonic Sensor register.<br/>
 
 <a href="https://github.com/duckwalker/Cytron-Ultrasonic-Sensor-Arduino-Library/blob/wiki/example/Read_Baudrate/readBaudrate.md" target="_blank"><strong>ReadBaudrate</strong></a> - Read the communication data rate of the Ultrasonic Sensor.<br/>
 
@@ -25,6 +25,4 @@ There have 9 example sketches:<br/>
 
 <a href="https://github.com/duckwalker/Cytron-Ultrasonic-Sensor-Arduino-Library/blob/wiki/example/Write_ID/writeID.md" target="_blank"><strong>WriteID</strong></a>      - Write a new Identity for Ultrasonic Sensor.<br/>
 
-
-
-<a href="https://github.com/duckwalker/Cytron-Ultrasonic-Sensor-Arduino-Library/blob/wiki/example/Read_LED/readLED.md" target="_blank"><strong>WriteLED</strong>     - Write the mode of Ultrasonic Sensor LED.<br/>
+<a href="https://github.com/duckwalker/Cytron-Ultrasonic-Sensor-Arduino-Library/blob/wiki/example/Read_LED/readLED.md" target="_blank"><strong>WriteLED</strong></a>     - Write the mode of Ultrasonic Sensor LED.<br/>
