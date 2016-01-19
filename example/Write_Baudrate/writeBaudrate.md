@@ -15,16 +15,16 @@ byte ID; //byte ID is ULTRASONIC SENSOR unique ID
 ## Returns ##
  return packet from sensor
  
-if errStatus=255 ,serial monitor print out "Write Baudrate ERROR!".
+if errStatus more than 0,write baudrate fail.
 
-if errStatus=0,serial monitor print out "Write Baudrate PASS!".
+if errStatus=0,write baudrate success.
 
 ## Example ##
 reroSensor_US US(2,3,8);
 
 byte baudrateWrite;
 
-baudrateWrite= US.ping(102); // read ID 102 control register Baudrate
+baudrateWrite= US.ping(102,103);// call out the function of write baudrate with ID = 102(rero Ultrasonic Sensor default ID), Standart value of baudrate =103(19200).
 
 ## See Also ##
 
