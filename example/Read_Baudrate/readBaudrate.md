@@ -33,7 +33,7 @@ reroSensor_US US(2,3,8);
 
 byte baud;
 
-baudrateRead= US.readBaudrate(102); // call out the function of factory reset with sensor ID 102.
+baud= US.readBaudrate(102); // call out the function of factory reset with sensor ID 102.
 
 ## See Also ##
 
