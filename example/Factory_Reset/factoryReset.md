@@ -13,7 +13,7 @@ byte factoryReset(byte ID);
 byte ID; //byte ID is ULTRASONIC SENSOR unique ID
 
 ## Returns ##
- return packet from ULTRASONIC sensor
+ return packet from Ultrasonic Sensor factory reset register.
  
 if return 0 ,Factory Reset Fail.
 
