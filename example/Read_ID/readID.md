@@ -15,16 +15,16 @@ byte ID; //byte ID is ULTRASONIC SENSOR unique ID
 ## Returns ##
  return packet from sensor
  
-if errStatus=255 ,serial monitor print out "Read ID ERROR!".
+if errStatus more than 0 , ping fail.
 
-if errStatus=0,serial monitor print out identity of sensor.
+if errStatus=0,ping success.
 
 ## Example ##
 reroSensor_US US(2,3,8);
 
 byte id;
 
-id= US.ping(102); // read ID 102 control registor factory Reset
+id= US.ping(); //call out the function of ping.
 
 ## See Also ##
 
