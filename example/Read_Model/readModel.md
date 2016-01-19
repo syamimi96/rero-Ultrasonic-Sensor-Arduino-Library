@@ -10,10 +10,10 @@ reroSensor_US.h
 word readModel(ID);
   
 ## Parameters ##
-byte ID; //byte ID is ULTRASONIC SENSOR unique ID
+word ID; //byte ID is ULTRASONIC SENSOR unique ID
 
 ## Returns ##
-return model L and model H default value
+return model L and model H default value in 16bit.
 
 model L return S
 
@@ -26,7 +26,7 @@ char modelHM[3]={0,0,0}; //null terminated string
 
 word model
 
-model=US.readModel(102);// read ID 102 control registor
+model=US.readModel(102);// call out the function of read model with ID = 102(rero Ultrasonic Sensor default ID).
 
 type[1]=(char)model&0x00FF;
   
