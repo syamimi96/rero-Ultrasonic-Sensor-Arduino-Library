@@ -13,7 +13,7 @@ byte readLED(byte ID);
 byte ID; //byte ID is ULTRASONIC SENSOR unique ID
 
 ## Returns ##
- return packet from sensor
+ Return packet from LED register:
  
 if errStatus more than 0 ,read ID fail.
 
