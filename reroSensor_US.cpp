@@ -376,7 +376,7 @@ byte reroSensor_US::writeID(byte ID, byte newID) {
 
   byte nbyte = reroUSSerial->readBytes(buff, 6);        //return packet
 
-  if (nbyte <= 6) {
+  if (nbyte < 6) {
     errStatus = 0xFF;
     return (buff[4]);
   }
