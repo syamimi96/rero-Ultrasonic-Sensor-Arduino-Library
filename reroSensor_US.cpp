@@ -60,8 +60,8 @@ byte reroSensor_US::ping(void) {
   reroUSSerial->write(0xFF);
   reroUSSerial->write(0xFE);                                      //0xFE = global ID
   reroUSSerial->write(0x02);
-  reroUSSerial->write(pingInst);                                 //ping insturution
-  byte checksum = (0xFF - 0xFE - 0x02 - pingInst);               //checksum equetion
+  reroUSSerial->write(pingInst);                                 //ping instruction
+  byte checksum = (0xFF - 0xFE - 0x02 - pingInst);               //checksum equation
   reroUSSerial->write(checksum);
 
   digitalWrite(_ctrlpin, RxMode);                                //Set control pin to Rx mode
@@ -99,7 +99,7 @@ byte reroSensor_US::factoryReset(byte ID) {
   reroUSSerial->write(0xFF);
   reroUSSerial->write(ID);                                 //ID of the sensor
   reroUSSerial->write(0x02);                               //length
-  reroUSSerial->write(factoryResetInst);                   //factory reset insturution
+  reroUSSerial->write(factoryResetInst);                   //factory reset instruction
   byte checksum = (0xFF - ID - 0x02 - factoryResetInst);   //checksum eqution
   reroUSSerial->write(checksum);
   digitalWrite(_ctrlpin, RxMode);                          //Set control pin to Rx mode
@@ -173,7 +173,7 @@ byte reroSensor_US::writeLED(byte ID, byte LED) {
   reroUSSerial->write(0xFF);
   reroUSSerial->write(ID);                                                      //Sensor ID
   reroUSSerial->write(0x04);
-  reroUSSerial->write(writeInst);                                               //write instrution
+  reroUSSerial->write(writeInst);                                               //write instruction
   reroUSSerial->write(LEDAddress);                                              //LED Address
   reroUSSerial->write(LED);                                                     //LED Mode
   byte checksum = (0xFF - ID - 0x04 - writeInst - LEDAddress - LED);            //Checksum
@@ -212,7 +212,7 @@ word reroSensor_US::pingUS(byte ID) {               //word because is using 16bi
   reroUSSerial->write(0xFF);                        
   reroUSSerial->write(ID);                          //Sensor ID
   reroUSSerial->write(0x02);                        
-  reroUSSerial->write(pingUSInst);                  //Ultrasonic ping Instrution
+  reroUSSerial->write(pingUSInst);                  //Ultrasonic ping Instruction
   byte checksum = (0xFF - ID - 0x02 - pingUSInst);  //checksum
   reroUSSerial->write(checksum);
   
@@ -251,7 +251,7 @@ word reroSensor_US::readModel(byte ID) {
   reroUSSerial->write(0xFF);
   reroUSSerial->write(ID);                          //Sensor ID
   reroUSSerial->write(0x04);
-  reroUSSerial->write(readInst);                    //read instrution
+  reroUSSerial->write(readInst);                    //read instruction
   reroUSSerial->write(modelInst);                   //model address
   reroUSSerial->write(0x02);
   byte checksum = (0xFF - ID - 0x04 - readInst - modelInst - 0x02); //checksum
@@ -292,7 +292,7 @@ byte reroSensor_US::readBaudrate(byte ID) {
   reroUSSerial->write(0xFF);
   reroUSSerial->write(ID);                    //Sensor ID
   reroUSSerial->write(0x04);
-  reroUSSerial->write(readInst);             //read insturution
+  reroUSSerial->write(readInst);             //read instruction
   reroUSSerial->write(baudrateInst);         //baudrate address
   reroUSSerial->write(0x01);
   byte checksum = (0xFF - ID - 0x04 - readInst - baudrateInst - 0x01);   //checksum equation
@@ -329,7 +329,7 @@ word reroSensor_US::writeBaudrate(byte ID, word newBaudrate) {
   reroUSSerial->write(0xFF);
   reroUSSerial->write(ID);                      //Sensor ID
   reroUSSerial->write(0x04);
-  reroUSSerial->write(writeInst);               //write insturution
+  reroUSSerial->write(writeInst);               //write instruction
   reroUSSerial->write(baudrateInst);            //baudrate address
   reroUSSerial->write(newBaudrate);             //new baudrate value
   byte checksum = (0xFF - ID - 0x04 - writeInst - baudrateInst - newBaudrate);   //checksum equetion
@@ -366,7 +366,7 @@ byte reroSensor_US::writeID(byte ID, byte newID) {
   reroUSSerial->write(0xFF);
   reroUSSerial->write(ID);                //sensor ID
   reroUSSerial->write(0x04);
-  reroUSSerial->write(writeInst);         //Write intrustion
+  reroUSSerial->write(writeInst);         //Write intruction
   reroUSSerial->write(IDAddress);         //ID Address
   reroUSSerial->write(newID);             //New ID value
   byte checksum = (0xFF - ID - 0x04 - writeInst - IDAddress - newID); //checksum equation
